@@ -1,3 +1,4 @@
+
 h1 {
     font-family: verdana;
     font-size: 300%;
@@ -65,4 +66,32 @@ a{
 a.active,a:hover{
     background: rgb(182, 50, 76);
     transition: .5s;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    background: rgb(175, 4, 38);
+}
+
+#foot ul{
+    list-style: none;
+    margin-right: 30px;
+}
+#foot ul li{
+    display: inline-block;
+    float: left;
+}
+
+#foot ul li a{
+    font-size: 30px;
+    font-family: 'Arial';
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 60px;
+}
+p{
+    background-color: rgb(128, 115, 91);
 }
