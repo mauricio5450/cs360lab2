@@ -2,10 +2,12 @@ h1 {
     font-family: verdana;
     font-size: 300%;
 }
+
 body{
     background-color: black;
     margin: 0;
 }
+
 a{
     cursor: pointer;
 }
@@ -25,13 +27,24 @@ a{
 .bar_main{
     width: fit-content;
     height: 100%;
-    <!background-color: grey;>
 }
 .sign_main{
     width: 120px;
     height: 100%;
-    background-color: yellow;
 }
+
+.sign_main ul{
+    list-style: none;
+}
+
+
+.sign_main ul li a{
+    font-size: 20px;
+    font-family: 'Arial';
+    color: black;
+    text-decoration: none;
+}
+
 .bar_main ul{
     list-style: none;
     margin-right: 30px;
