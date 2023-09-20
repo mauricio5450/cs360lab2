@@ -5,6 +5,9 @@ h1 {
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: black;
     margin: 0;
 }
@@ -70,9 +73,16 @@ a.active,a:hover{
 
 footer{
     width: 100%;
-    position: absolute;
     bottom:0;
     background: rgb(175, 4, 38);
+}
+
+.footer{
+    background-color: rgb(175, 4, 38);
+    width: 100%;
+    padding: 10px 0; 
+    position: fixed;
+    bottom: 0;
 }
 
 #foot ul{
